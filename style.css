@@ -1,0 +1,41 @@
+.logout i{
+    color:white;
+    font-size: 30px;
+}
+
+.boton_2{
+    align:padding-left;
+    text-decoration: none;
+    padding: 40px;
+    font-family: arial;
+    text-transform: uppercase;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 800;
+    font-size: 25px;
+    color: white;
+    background-color: #8EC3B0;
+  }
+  .boton_2:hover{
+    color: #8EC3B0;
+    background-color: #9ED5C5;
+    text-decoration: none;
+  }
+
+.claseDerecha{
+    margin-top:270px;
+
+
+}
+
+.patioDerecha{
+    margin-top: 10px;
+}
+
+.botonAñadir{
+  margin-top: 150px;
+  margin-left: 120px;
+  font-family: arial;
+  font-weight: 800;
+  font-size: 25px;
+}

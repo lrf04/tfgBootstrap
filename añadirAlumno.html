@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plantilla</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
+    crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="background-color:#DEF5E5;">
+    <!--Barra de navegación-->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">App</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="d-flex">
+            <div class="collapse navbar-collapse ml-auto" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                  <li class="nav-item"><span></span>
+                    <div class="logout">
+                        <button style="background-color:rgb(32, 30, 30)" ><i class="bi bi-box-arrow-right" href="#"></i></button>
+                      </div>
+                  </li> 
+                </ul>
+              </div>
+          </div>
+        </div>
+    </nav>
+
+    
+        <div class="mt-5 container">
+            <div class="row">
+                <div class="col">
+                    <h3>Datos</h3>
+                    <form>
+                        <label for="nombre">Nombre</label>
+                        <input type="text" class="form-control" id="nombre" placeholder="Nombre" name="nombre">
+                        <label for="apellidos">Apellidos</label>
+                        <input type="text" class="form-control" id="apellidos" placeholder="Apellidos" name="apellidos">
+                        <label for="edad">Edad</label>
+                        <input type="text" class="form-control" id="edad" placeholder="Edad" name="edad">
+                        <label >TDAH</label>
+                        <div class="form-check">
+                            <input type="radio" class="form-check-input" id="si" name="optradio" value="si" checked>
+                            <label class="form-check-label" for="si">Sí</label>
+                          </div>
+                          <div class="form-check">
+                            <input type="radio" class="form-check-input" id="no" name="optradio" value="no" checked>
+                            <label class="form-check-label" for="no">No</label>
+                          </div>
+                    </form>
+                </div>
+
+                <div class="col">
+                    <h3>Información</h3>
+                    <form>
+                        <label for="descripcion">Descripcion</label>
+                        <input type="text" class="form-control" id="descripcion" placeholder="Descripcion" name="descripcion">
+                        <label for="aficiones">Aficiones</label>
+                        <input type="text" class="form-control" id="aficiones" placeholder="Aficiones" name="aficiones">
+                        <div class="botonAñadir"><button type="button" class="btn btn-primary">Registrar alumno</button></div>
+                        
+                    </form>
+                </div>
+
+                <div class="col">
+                    <h3>Amigos</h3>
+                    <label>Seleccione los amigos(Presiona la tecla ctrl para seleccionar más de uno)</label>
+                    <div>
+                        <select class="selectpicker" multiple\  >
+                            <option>Alumno 1</option>
+                            <option>Alumno 2</option>
+                            <option>Alumno 3</option>
+                          </select>
+                          
+                          
+                    </div>
+                </div>
+              </div>
+
+        </div>
+        
+
+
+
+      
+      
+      
+      
+   
+    
+</body>
+</html>
