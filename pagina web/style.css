@@ -57,3 +57,12 @@
   font-weight: 800;
   font-size: 25px;
 }
+
+.container1{
+  width: 600px;
+}
+
+.container2{
+  width: 600px;
+  margin-left: 500px;
+}
